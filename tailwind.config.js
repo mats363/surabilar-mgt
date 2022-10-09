@@ -26,12 +26,11 @@ module.exports = {
       Magic_2: ['43px', {fontWeight: 'bold'}],
       Magic_3: ['30px', {fontWeight: 'bold'}],
       Magic_4: ['24px', {fontWeight: 'bold'}],
-      Magic_5: ['24px', {fontWeight: 'regular'}],
+      Magic_5: ['24px', {fontWeight: '400'}],
       Magic_6: ['20px', {fontWeight: 'bold'}],
+      Magic_7: ['18px', {fontWeight: 'regular'}]
     },
-    fontFamily: {
-      'openSans': ['Open_Sans', 'sans-serif'] 
-    },
+    
     backgroundImage: {
       Hero1: "url(./images/campbell-white-volcanic-toll.jpg)",
     },
