@@ -23,9 +23,10 @@ module.exports = {
       black: '#000000'
     },
     fontSize: {
-      Magic_2: ['43px', {fontWeight: '200'}],
-      Magic_3: ['30px', {fontWeight: '200'}],
-      Magic_4: ['22px', {fontWeight: '200'}],
+      Magic_1: ['88px', {fontWeight: '700', lineHeight: '117px'}],
+      Magic_2: ['43px', {fontWeight: 'bold'}],
+      Magic_3: ['30px', {fontWeight: '400'}],
+      Magic_4: ['22px', {fontWeight: '600'}],
       Magic_5: ['24px', {fontWeight: '200'}],
       Magic_6: ['20px', {fontWeight: '200'}],
       Magic_7: ['18px', {fontWeight: '200'}]

@@ -9,9 +9,9 @@ import forestImg from "../images/Forest.png"
 
 
 export function Main() {
-    return (<>
-    <section className="w-screen bg-black flex justify-start items-start p-4">
-        <article className="m-4 p-4 text-wind text-Magic_5 text-center tablet:text-left">
+    return (<main className="bg-black">
+    <section className="w-screen flex justify-start items-start px-4 mx-8">
+        <article className="text-wind text-Magic_5 text-center tablet:text-left tablet:hidden">
             <p>
                 New to Magic The Gathering? 
                 <br/>
@@ -25,44 +25,48 @@ export function Main() {
         
     </section>
 
-    <section className="w-screen bg-black flex flex-col justify-start items-start p-4 text-wind">
+    <section className="max-w-screen flex flex-col justify-start items-start text-wind px-4 mx-8">
 
-        <article className="p-4">
-            <h2 className="text-wind text-Magic_3">History of MTG</h2>
+        <article className="mx-32 my-16">
+            <h2 className="text-wind text-Magic_2 text-left">History of MTG</h2>
+            <br/>
+            <figure>
+                <img src={founderImage} className="h-44 w-44 rounded-full float-right tablet:w-300px"/>
+            </figure>
             <div>
-                 <img src={founderImage} className="h-44 w-44 rounded-full float-right tablet:w-300px"/>
-                <p className="text-wind text-Magic_7 text-left">
+                <p className="text-wind text-Magic_7 text-left pr-50">
                     Somewhere in the early 90s, back when the game was still on the drawing board, creator Richard Garfield wanted to design a Dungeons & Dragons-style game where players are wizards in a fantastical world, but he also wanted the games to be quick and never require anything more than a deck of cards. That’s why the first-ever set, now known as Alpha, was made.
                     Back then, the cards didn’t need to be anything more than 
                     generic monsters and vague magical artifacts for the game to work. But Garfield left just the hint of a larger world and an epic story, and thus gave birth to one of gaming’s most beloved universes. A multiverse, actually. 
                 </p>
-                
             </div>
+            
             
         </article>
         
-            <article className="flex justify-center flex-col tablet:flex-row-reverse">
-                <div>
-                    <h2 className="text-Magic_3">Planeswalkers</h2>
-                    <p className="text-Magic_7 text-left">
-                        Planeswalkers are among the most powerful beings in the multiverse. Within the game, they represent the thematic identities of the players. Planeswalker is also a card type within the game.
-                        Planeswalker card types were introduced in Lorwyn. Like the player, a planeswalker card represents a powerful being that is able to move from plane to plane. Planeswalkers borrowed their "attack me to lower my loyalty" mechanic from something called structures that Richard Garfield made for Ravnica: City of Guilds, but never had been used. 
-                        An earlier design for planeswalkers, meant to be introduced in Future Sight would later inspire the design of Sagas.
-                    </p>
-                </div>
-                <div className="flex justify-center">
-                    <img src={spelkort} className="max-w-96"/>
-                </div>
-            </article>
+        <article className="mx-32 my-8 flex justify-center flex-col tablet:flex-row-reverse">
+            <div>
+                <h2 className="text-Magic_2 text-left">Planeswalkers</h2>
+                <br/>
+                <p className="text-Magic_7 text-left">
+                    Planeswalkers are among the most powerful beings in the multiverse. Within the game, they represent the thematic identities of the players. Planeswalker is also a card type within the game.
+                    Planeswalker card types were introduced in Lorwyn. Like the player, a planeswalker card represents a powerful being that is able to move from plane to plane. Planeswalkers borrowed their "attack me to lower my loyalty" mechanic from something called structures that Richard Garfield made for Ravnica: City of Guilds, but never had been used. 
+                    An earlier design for planeswalkers, meant to be introduced in Future Sight would later inspire the design of Sagas.
+                </p>
+            </div>
+            <div className="flex justify-center">
+                <img src={spelkort} className="min-w-80 min-h-80"/>
+            </div>
+        </article>
 
-            <section id="colorsOfMana">
-                <h2 className="text-Magic_3">Colors of mana</h2>
-                
+            <section id="colorsOfMana" className="flex-col space-y-10">
+                <h2 className="text-Magic_2 text-left">Colors of mana</h2>
+            
                 <article className="flex justify-center flex-col tablet:justify-evenly tablet:flex-row">
                     <figure className="flex justify-center p-4">
                         <img src= {plainsImg} className="w-[75px] h-[75px] min-w-[75px]"/>
                     </figure>
-                    <p className="text-Magic_7 text-left">
+                    <p className="text-Magic_7 text-left m-auto">
                         It is drawn from the plains and embodies the principles of morality and order. The mana symbol for White is represented by a sun. On the color pie, it is allied with green and blue, and is enemies with black and red. White seeks peace through structure.
                     </p> 
                 </article>
@@ -70,7 +74,7 @@ export function Main() {
                     <figure className="flex justify-center p-4">
                         <img src= {fireImg} className="w-[75px] h-[75px] min-w-[75px]"/>
                     </figure>
-                    <p className="text-Magic_7 text-left">
+                    <p className="text-Magic_7 text-left  m-auto">
                         It is drawn from the mountains and embodies the principles of impulse and chaos. The mana symbol for Red is represented by a fireball. On the color pie, it is allied with black and green, and is enemies with white and blue. Red seeks freedom through action.            
                         </p>
                 </article>
@@ -78,7 +82,7 @@ export function Main() {
                     <figure className="flex justify-center p-4">
                         <img src= {waterImg} className="w-[75px] h-[75px] min-w-[75px]"/>
                     </figure>
-                    <p className="text-Magic_7 text-left">
+                    <p className="text-Magic_7 text-left m-auto">
                         It is drawn from islands and embodies the concepts of logic and technology and seeks perfection through knowledge. The mana symbol for Blue is a drop of water. On the color pie, it is allied with white and black and is the enemy of red and green. For a time, Blue was the dominant color and R&D was forced to change its approach to the color in order to bring it in line with the strength of the other colors.        
                     </p>    
                 </article>
@@ -86,17 +90,17 @@ export function Main() {
                     <figure className="flex justify-center p-4">
                         <img src= {swampImg} className="w-[75px] h-[75px] min-w-[75px]"/>
                     </figure>
-                    <p className="text-Magic_7 text-left">
+                    <p className="text-Magic_7 text-left m-auto">
                         It is drawn from the power of swamps and embodies the principles of parasitism and amorality (though not necessarily immorality). The mana symbol for Black is represented by a skull. On the color pie, it is the ally of blue and red, and the enemy of white and green. Black seeks power through ruthlessness or opportunity.                </p>
                 </article>
                 <article className="flex justify-center flex-col tablet:justify-evenly tablet:flex-row">
                     <figure className="flex justify-center p-4">
                         <img src= {forestImg} className="w-[75px] h-[75px] min-w-[75px]"/>
                     </figure>    
-                    <p className="text-Magic_7 text-left">
+                    <p className="text-Magic_7 text-left m-auto">
                         It is drawn from the power of forests and embodies the principles of instinct and interdependence. The mana symbol for Green is represented by a tree. On the Color Pie, it is the ally of white and red, and the enemy of blue and black. Green seeks growth through acceptance, though it has also previously been described as seeking harmony or acceptance through growth, or growth through wisdom.                </p>
                 </article>
         </section>
     </section>
-    </>)
+    </main>)
 }
