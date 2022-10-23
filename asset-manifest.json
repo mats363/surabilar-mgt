@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/surabilar-mtg/static/css/main.e4849072.css",
+    "main.js": "/surabilar-mtg/static/js/main.35097b21.js",
+    "static/js/787.b7858d39.chunk.js": "/surabilar-mtg/static/js/787.b7858d39.chunk.js",
+    "static/media/Kort-klara.png": "/surabilar-mtg/static/media/Kort-klara.766164d676456fbaf7b8.png",
+    "static/media/Chandra2.svg": "/surabilar-mtg/static/media/Chandra2.cf44d73a8d9c9a20045dfff905485043.svg",
+    "static/media/2022-09-15.png": "/surabilar-mtg/static/media/2022-09-15.f82a3b7e4e466445b90d.png",
+    "static/media/campbell-white-volcanic-toll.jpg": "/surabilar-mtg/static/media/campbell-white-volcanic-toll.3dd25b67156c55426bec.jpg",
+    "static/media/MGT-logo.png": "/surabilar-mtg/static/media/MGT-logo.77462b481f2e1cefe0d2.png",
+    "static/media/Water.png": "/surabilar-mtg/static/media/Water.b2444439cd9e018a12b1.png",
+    "static/media/Plains.png": "/surabilar-mtg/static/media/Plains.3bdf8a31b97e7e4fe723.png",
+    "static/media/Swamp.png": "/surabilar-mtg/static/media/Swamp.446bf027e2201a52475c.png",
+    "static/media/Fire.png": "/surabilar-mtg/static/media/Fire.224d7afcb9550c75c756.png",
+    "static/media/Forest.png": "/surabilar-mtg/static/media/Forest.43e91fc4437d007fdb66.png",
+    "index.html": "/surabilar-mtg/index.html",
+    "main.e4849072.css.map": "/surabilar-mtg/static/css/main.e4849072.css.map",
+    "main.35097b21.js.map": "/surabilar-mtg/static/js/main.35097b21.js.map",
+    "787.b7858d39.chunk.js.map": "/surabilar-mtg/static/js/787.b7858d39.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4849072.css",
+    "static/js/main.35097b21.js"
+  ]
+}
