@@ -20,7 +20,8 @@ module.exports = {
       'water-dark': '#1F346A',
       wind: '#F5F5F5',
       earth: '#046735',
-      black: '#000000'
+      black: '#000000',
+      blue: '#294691'
     },
     fontSize: {
       Magic_1: ['88px', {fontWeight: '700', lineHeight: '117px'}],
